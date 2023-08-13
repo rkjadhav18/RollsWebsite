@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rolls-Royce</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("background.jpg");
+            background-size: cover;
+            height: 100vh;
+        }
+        
+        header {
+            background-color: rgb(0, 0, 0);
+            color: #ffffffea;
+            padding: 20px;
+        }
+        
+        .logo {
+            display: inline-block;
+            width: 90px;
+            height: 90px;
+            background-image: url("png.png");
+            background-size: cover;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        
+        nav {
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        
+        nav ul li a {
+            color: #f1f1f1fe;
+            text-decoration: none;
+            padding: 5px;
+        }
+        
+        section {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.481);
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            text-align:start;
+            margin-bottom: 20px;
+        }
+        
+        .car-model {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+        .car-model-item {
+            width: 300px;
+            border: 1px solid #cccccc46;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        
+        .car-model-item img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        
+        .gallery-item img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+        <nav>
+            <ul>
+                <li><a href="myworkindex.html">HOME</a></li>
+                <li><a href="myworkindexmodels.html">MODELS</a></li>
+                <li><a href="myworkindexgallery.html">GALLERY</a></li>
+                <li><a href="myworkindexcontact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section>
+        <h1>Welcome to Rolls-Royce Top 3 Models</h1>
+       <h2>Here we introduce the TOP 3 Cars of Rolls-Royce</h2>
+    </section>
+    
+    <section>
+        <h2>Models</h2>
+        <div class="car-model">
+            <div class="car-model-item">
+                <img src="imgallcar/phantom2.jpg" alt="Model 1">
+                <h3>Rolls-Royce</h3>
+                <h3>PHANTOM</h3>
+                <a href="https://www.rolls-roycemotorcars.com/en_US/showroom/phantom.html">visit rollsroycephantom.com</a>
+            </div>
+            <div class="car-model-item">
+                <img src="imgallcar/ghost2.webp" alt="Model 2">
+                <h3>Rolls-Royce</h3>
+                <h3>GHOST</h3>
+                <a href="https://www.rolls-roycemotorcars.com/en_US/showroom/ghost.html">visit rollsroyceghost.com</a>
+            </div>
+            <div class="car-model-item">
+                <img src="imgallcar/cullinan.jpg" alt="Model 3">
+                <h3>Rolls-Royce</h3>
+                <h3>CULLINAN</h3>
+                <a href="https://www.rolls-roycemotorcars.com/en_US/showroom/cullinan.html">visit rollsroycecullinan.com</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

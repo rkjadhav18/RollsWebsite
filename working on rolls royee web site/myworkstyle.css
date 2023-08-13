@@ -1,0 +1,30 @@
+.car-menu {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .car-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .car-menu li {
+    margin-right: 10px;
+  }
+  
+  .car-menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .car-menu a:hover {
+    background-color: #333;
+  }
+header{
+    background-image: url(../rr.jpg);
+    height: 100vh;
+}

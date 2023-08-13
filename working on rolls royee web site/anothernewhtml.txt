@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rolls-Royce</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('background.jpg');
+            background-size: cover;
+        }
+        
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 20px;
+        }
+        
+        .logo {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background-image: url('logo.png');
+            background-size: cover;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        
+        nav {
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px;
+        }
+        
+        section {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .car-model {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+        .car-model-item {
+            width: 300px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        
+        .car-model-item img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        
+        .gallery-item img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Models</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section>
+        <h1>Welcome to Rolls-Royce</h1>
+        <p>Experience the ultimate luxury with Rolls-Royce vehicles.</p>
+    </section>
+    
+    <section>
+        <h2>Models</h2>
+        <div class="car-model">
+            <div class="car-model-item">
+                <img src="model1.jpg" alt="Model 1">
+                <h3>Rolls-Royce Model 1</h3>
+                <p>Description of Model 1</p>
+            </div>
+            <div class="car-model-item">
+                <img src="model2.jpg" alt="Model 2">
+                <h3>Rolls-Royce Model 2</h3>
+                <p>Description of Model 2</p>
+            </div>
+            <div class="car-model-item">
+                <img src="model3.jpg" alt="Model 3">
+                <h3>Rolls-Royce Model 3</h3>
+                <p>Description of Model 3</p>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="gallery1.jpg" alt="Gallery 1">
+            </div>
+            <div class="gallery-item">
+                <img src="gallery2.jpg" alt="Gallery 2">
+            </div>
+            <div class="gallery-item">
+                <img src="gallery3.jpg" alt="Gallery 3">
+            </div>
+            <div class="gallery-item">
+                <img src="gallery4.jpg" alt="Gallery 4">
+            </div>
+            <div class="gallery-item">
+                <img src="gallery5.jpg" alt="Gallery 5">
+            </div>
+            <div class="gallery-item">
+                <img src="gallery6.jpg" alt="Gallery 6">
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        &copy; 2023 Rolls-Royce. All rights reserved.
+    </footer>
+</body>
+</html>

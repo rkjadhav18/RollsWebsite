@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us - Rolls-Royce</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: rgb(0, 0, 0);
+            color: #fff;
+            padding: 20px;
+        }
+        
+        .logo {
+            display: inline-block;
+            width:90px;
+            height:90px;
+            background-image: url("png.png");
+            background-size: cover;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        
+        nav {
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px;
+        }
+        
+        section {
+            padding: 20px;
+            color: #000;
+            text-align: center;
+        }
+        
+        h1 {
+            margin-bottom: 20px;
+        }
+        
+        .contact-form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        
+        .contact-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            resize: vertical;
+        }
+        
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+        <nav>
+            <ul>
+                <li><a href="myworkindex.html">Home</a></li>
+                <li><a href="myworkindexmodels.html">Models</a></li>
+                <li><a href="myworkindexgallery.html">Gallery</a></li>
+                <li><a href="myworkindexcontact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section>
+        <h1>Contact Us</h1>
+        <div class="contact-form">
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

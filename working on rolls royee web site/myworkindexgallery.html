@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rolls-Royce</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("background.jpg");
+            background-size: cover;
+        }
+        
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 20px;
+        }
+        
+        .logo {
+            display: inline-block;
+            width: 90px;
+            height: 90px;
+            background-image: url("png.png");
+            background-size: cover;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        
+        nav {
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px;
+        }
+        
+        section {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.528);
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        
+        .gallery-item img {
+            width: 70%;
+            max-height: 250px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+        <nav>
+            <ul>
+                <li><a href="myworkindex.html">HOME</a></li>
+                <li><a href="myworkindexmodels.html">MODELS</a></li>
+                <li><a href="myworkindexgallery.html">GALLERY</a></li>
+                <li><a href="myworkindexcontact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="imgallcar/phantomint2.jpg" alt="Gallery 1">
+                <h3>Phantom Front Interior</h3>
+            </div>
+            <div class="gallery-item">
+                <img src="imgallcar/ghostint2.jpg" alt="Gallery 2">
+                <h3>Ghost Front Interior</h3>
+            </div>
+            <div class="gallery-item">
+                <img src="imgallcar/cint1.jpg" alt="Gallery 3">
+                <h3>Cullinan Front Interior</h3>
+            </div>
+            <div class="gallery-item">
+                <img src="imgallcar/phantomint1.jpg" alt="Gallery 4">
+                <h3>Phantom Back Interior</h3>
+            </div>
+            <div class="gallery-item">
+                <img src="imgallcar/ghostint.webp" alt="Gallery 5">
+                <h3>Ghost Back Interior</h3>
+            </div>
+            <div class="gallery-item">
+                <img src="imgallcar/cint2.jpg" alt="Gallery 6">
+                <h3>Cullinan Back Interior</h3>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

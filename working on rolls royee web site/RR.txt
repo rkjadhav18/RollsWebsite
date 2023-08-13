@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family:Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('../Downloads/rolls.jpg');
+            background-size:cover;
+            height: 100vh;
+        }
+        
+        header {
+            background-color: rgb(0, 0, 0);
+            color: #ffffff33;
+            padding: 20px;
+        }
+        
+        .logo {
+            display: inline-block;
+            width: 50px;
+            height: 90px;
+            background-image: url('../Downloads/download.png');
+            background-size: cover;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        
+        nav {
+            text-align:center;
+        }
+        
+        nav ul {
+            list-style-type:circle;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        
+        nav ul li a {
+            color: #ddcccc;
+            text-decoration: none;
+            padding: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">RR PHANTOM</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
